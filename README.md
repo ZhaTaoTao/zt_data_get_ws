@@ -9,7 +9,11 @@
     便可一键启动数据采集。
 
 ## 2.查看是否能成功采集数据
+
     将车开到室外开阔地带，从浏览器进入 192.168.1.103 ，观察下方8个长条，不能出现红色长条，这是用于检测是否能够正确获取定位。
 ![image](https://github.com/ZhaTaoTao/zt_data_get_ws/blob/master/image/image1.png)
-    打开 rviz，从 topic 中添加 point
-point
+
+    打开 rviz，从 topic 中添加 PointCound2 话题，并将上面的 frame 设置为 rslidar，看看能否看到点云，能看到就是正常的。
+![image](https://github.com/ZhaTaoTao/zt_data_get_ws/blob/master/image/image2.png)
+    
+    继续在 rviz 中，从 topic 中添加 image 话题，看看相机是否显示正常，若正常，则说明程序启动没问题。
