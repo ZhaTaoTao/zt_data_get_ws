@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra -Wpedantic    -Wshadow -Wunused-parameter -Wformat -Wpointer-arith -O3  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/liu/zt_data_get_ws/build/fixposition_driver_ros1/gtest/lib ../lib/libgtest.so -lpthread 

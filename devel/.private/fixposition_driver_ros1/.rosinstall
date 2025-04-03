@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/liu/zt_data_get_ws/devel/.private/fixposition_driver_ros1/setup.sh

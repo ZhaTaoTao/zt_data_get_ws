@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/liu/zt_data_get_ws/devel/.private/zed_nodelets/setup.sh

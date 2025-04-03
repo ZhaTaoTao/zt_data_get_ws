@@ -1,0 +1,1 @@
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_84952.dir/src.c.o  -o cmTC_84952 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c21c8.dir/CheckFunctionExists.cxx.o  -o cmTC_c21c8  -lpthreads 

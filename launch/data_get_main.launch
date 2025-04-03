@@ -1,0 +1,9 @@
+<launch>
+
+    <include file="$(find fixposition_driver_ros1)/launch/tcp.launch" />
+
+    <include file="$(find zed_wrapper)/launch/zed2i.launch" />
+
+    <include file="$(find rslidar_sdk)/launch/start.launch" />
+
+</launch>

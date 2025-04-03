@@ -1,0 +1,4 @@
+Symlinking /home/liu/zt_data_get_ws/devel/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+Symlinking /home/liu/zt_data_get_ws/devel/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+Symlinking /home/liu/zt_data_get_ws/devel/lib/pkgconfig/zed_wrapper.pc
+Symlinking /home/liu/zt_data_get_ws/devel/lib/zed_wrapper/zed_wrapper_node

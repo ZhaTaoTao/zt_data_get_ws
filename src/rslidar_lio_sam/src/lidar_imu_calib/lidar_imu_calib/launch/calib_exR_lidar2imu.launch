@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="lidar_imu_calib" type="calib_exR_lidar2imu_node" name="calib_exR_lidar2imu_node" output="screen">
+        <param name="/lidar_topic" value="/velodyne_points"/>
+        <param name="/imu_topic" value="/zed2i/zed_node/imu/data"/>
+        <param name="/bag_file" value="/home1/lio-sam-data/2023-12-12-02-32-42.bag"/>
+    </node>
+</launch>

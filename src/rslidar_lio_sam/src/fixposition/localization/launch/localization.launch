@@ -1,0 +1,10 @@
+<launch>
+    <!-- <node name="map_fusion" pkg="map_fusion"
+          type="map_fusion" output="screen"/>
+    <param name="config_file_name" value="ttt.yaml"/> -->
+
+    <node name ="localization" pkg="localization" type="localization" output="screen" />
+    <node pkg="tf" type="static_transform_publisher" name="tf_map2odom" args="0 0 0 0 0 0  map odom 20"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_fp_link2poi" args="0 0 0 0 0 0  fix_position_link FP_POI 20"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_fp_zed2zed" args="0 0 0 0 0 0  zed_2i_link zed2i_link 20"/>
+</launch> 

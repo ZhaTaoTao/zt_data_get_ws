@@ -1,0 +1,6 @@
+zed2i/zed-ros-wrapper/zed_wrapper
+/home/liu/zed2i/devel/.private/zed_wrapper/cmake.lock /home/liu/zed2i/devel/./cmake.lock
+/home/liu/zed2i/devel/.private/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake /home/liu/zed2i/devel/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+/home/liu/zed2i/devel/.private/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake /home/liu/zed2i/devel/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+/home/liu/zed2i/devel/.private/zed_wrapper/lib/pkgconfig/zed_wrapper.pc /home/liu/zed2i/devel/lib/pkgconfig/zed_wrapper.pc
+/home/liu/zed2i/devel/.private/zed_wrapper/lib/zed_wrapper/zed_wrapper_node /home/liu/zed2i/devel/lib/zed_wrapper/zed_wrapper_node

@@ -1,0 +1,8 @@
+prefix=/home/liu/zt_data_get_ws/devel/.private/rtcm_msgs
+
+Name: rtcm_msgs
+Description: Description of rtcm_msgs
+Version: 1.1.6
+Cflags: -I/home/liu/zt_data_get_ws/devel/.private/rtcm_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

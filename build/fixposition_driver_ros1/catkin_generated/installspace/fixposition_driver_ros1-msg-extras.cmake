@@ -1,0 +1,2 @@
+set(fixposition_driver_ros1_MESSAGE_FILES "msg/Speed.msg;msg/WheelSensor.msg;msg/GnssSats.msg;msg/NMEA.msg;msg/fpa/eoe.msg;msg/fpa/gnssant.msg;msg/fpa/gnsscorr.msg;msg/fpa/imubias.msg;msg/fpa/llh.msg;msg/fpa/odomenu.msg;msg/fpa/odometry.msg;msg/fpa/odomsh.msg;msg/fpa/odomstatus.msg;msg/fpa/text.msg;msg/fpa/tp.msg;msg/nmea/gpgga.msg;msg/nmea/gpgll.msg;msg/nmea/gngsa.msg;msg/nmea/gpgst.msg;msg/nmea/gxgsv.msg;msg/nmea/gphdt.msg;msg/nmea/gprmc.msg;msg/nmea/gpvtg.msg;msg/nmea/gpzda.msg;msg/extras/CovWarn.msg")
+set(fixposition_driver_ros1_SERVICE_FILES "")

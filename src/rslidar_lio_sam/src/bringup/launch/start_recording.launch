@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="rosbag" type="record" name="record_data" args="-o /home1/lio-sam-data/
+                                                               /velodyne_points
+                                                               /rslidar_points_m1
+                                                               /zed2i/zed_node/imu/data
+                                                               /zed2i/zed_node/imu/data_raw
+
+                                                               /zed2i/zed_node/left_raw/image_raw_color
+  
+                                                               /fixposition/corrimu
+                                                               /fixposition/imu_ypr
+                                                               /fixposition/navsatfix
+                                                               /fixposition/odometry
+                                                               /fixposition/odometry_enu
+                                                               /fixposition/poiimu
+                                                               /fixposition/rawimu
+                                                               /fixposition/speed
+                                                               /fixposition/vrtk
+                                                               /fixposition/ypr
+
+                                                              " output="screen"/>
+
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra -Wpedantic    -Wshadow -Wunused-parameter -Wformat -Wpointer-arith -O3  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/liu/zt_data_get_ws/build/fixposition_driver_ros1/gtest/lib ../lib/libgtest.so -lpthread 

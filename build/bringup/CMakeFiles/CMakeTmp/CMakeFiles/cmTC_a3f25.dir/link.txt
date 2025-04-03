@@ -1,0 +1,1 @@
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a3f25.dir/CheckFunctionExists.c.o  -o cmTC_a3f25  -lpthreads 

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <include file="$(find zed_wrapper)/launch/zed2i.launch">
+  </include>
+
+  <include file="$(find rslidar_sdk)/launch/start.launch">
+  </include>
+
+  <include file="$(find rs_to_velodyne)/launch/rs2velodyne.launch">
+  </include>
+
+   
+  <!-- <include file="$(find fixposition_driver)/launch/tcp.launch">
+  </include> -->
+<!--   
+   <node pkg="tf" type="static_transform_publisher" name="tf_base_link2poigps" args="0 0 0 0 0 0  base_link POI 400"/> 
+   <node pkg="tf" type="static_transform_publisher" name="tf_base_link2imu" args="-0.032, -0.037, 0.056 0.0, 0.0, 0.0 base_link zed2i_imu_link 400"/> -->
+     <!-- <node pkg="tf" type="static_transform_publisher" name="tf_fp_link2poi" args="0 0 0 0 0 0  fix_position_link FP_POI 400"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_fp_zed2zed" args="0 0 0 0 0 0  zed_2i_link zed2i_link 400"/> -->
+  <!-- <include file="$(find localization)/launch/localization.launch">
+  </include> -->
+
+  <!-- <include file="$(find data_box)/launch/display.launch">
+  </include> -->
+
+  <!-- <node pkg="rosbag" type="record" name="record_data" args="-o /home1/lio-sam-data/
+                                                               /velodyne_points
+
+                                                               /zed2i/zed_node/imu/data
+                                                               /zed2i/zed_node/imu/data_raw
+                                
+                                                               /zed2i/zed_node/left_raw/image_raw_color
+  
+                                                               /fixposition/corrimu
+                                                               /fixposition/imu_ypr
+                                                               /fixposition/navsatfix
+                                                               /fixposition/odometry
+                                                               /fixposition/odometry_enu
+                                                               /fixposition/poiimu
+                                                               /fixposition/rawimu
+                                                               /fixposition/speed
+                                                               /fixposition/vrtk
+                                                               /fixposition/ypr
+
+                                                              " output="screen"/> -->
+
+</launch>
